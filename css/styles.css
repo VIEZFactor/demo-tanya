@@ -1,0 +1,325 @@
+html, body, h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+#fixed-content{
+    border-bottom: 4px solid #d2dc69;
+}
+
+.section-begin{    
+    background: linear-gradient(to right, #35d036 0%, #35d036 25%, #85e083 25%, #85e083 50%, #029803 50%, #029803 75%, #056605 75%, #056605 100%);    
+    background-position: center top, center bottom;
+    background-repeat: no-repeat;
+    padding-top: 1em;
+}
+
+.menu-email{
+    color: #ad2f5f;
+    font-weight: 700;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+}
+
+.list-socials a{
+    color: white;
+    font-size: 1.5em;
+}
+
+.navbar-nav .nav-link{
+    font-weight: 700;
+    color: #333;
+    border: 2px solid transparent;
+    border-radius: 0;
+}
+
+.navbar-nav .nav-link.active{
+    background-color: #ad2f5f;
+    color: white;
+}
+
+.navbar-nav .nav-link:hover{
+    border-bottom: 2px solid #ad2f5f;
+}
+
+.important-message{
+    padding-top: 0.2em;
+    background-color: #d2dc69;
+    overflow: hidden;
+}
+
+.important-message p{
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #ad2f5f;
+}
+
+
+.m-scroll {
+    overflow: hidden;
+    height: 100%;
+    white-space: nowrap;
+    animation: scrollText 10s infinite linear;
+    margin: 0;
+    font-size: 0;
+    display: inline-block;
+  }
+  
+  .important-message span {
+    font-size: 18px;
+    display: inline-block;
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
+    color: white;
+    color: #ad2f5f;
+  }
+  
+  @keyframes scrollText {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+.banner-home{
+    background-image: url('../img/bg-banner.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 5em;
+    margin-bottom: -3em;
+}
+
+.overlay-text {
+    /* these two are needed - the align self makes the column not stretch the whole height of the image column and the translate moves the column over the image */
+    
+    transform: translateX(-20%);
+  
+    /* the following are for example only */
+    background-color: #ffffff;
+    padding:20px;
+}
+
+.about-us{
+    background-color: #e9f2e8;
+    padding-top: 6em;
+    padding-bottom: 3em;
+    background-image: url('../img/vector-bg-2.png'), url('../img/vector-bg.png');
+    background-size: auto 50%, auto 50%;
+    background-position: 90% 10%, 10% 90%;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed;
+}
+
+.about-us h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 1em;
+}
+
+.about-us p{
+    text-align: justify;
+}
+
+.doctors h2{
+    color: #6a6146;
+    font-weight: 700;
+    font-size: 1.6em;
+}
+
+.doctors h4{
+    color: #6a6146;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.program{
+    padding-top: 3em;
+    padding-bottom: 2.5em;
+    background-color: #ffdfeb;
+}
+
+.program h2{
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 2.5em;
+    color: black;
+    margin-bottom: 1em;
+}
+
+.program h4{
+    font-family: 'Kaushan Script', cursive;    
+    color: black;
+}
+
+.consultation{
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+.consultation h2{
+    font-family: 'Kaushan Script', cursive;
+    color: #213109;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.consultation h3{
+    font-family: 'Kaushan Script', cursive;
+    color: #ad2f5f;
+    text-align: center;
+}
+
+.consultation h5{
+    color: #333;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+}
+
+.consultation img{
+    margin-bottom: 1em;
+}
+
+.consultation p{
+    color: #333;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.contact-us{
+    background-color: #5a5b5b;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+}
+
+.contact-us h3{
+    text-align: center;
+    color: #85e083;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.contact-us hr{    
+    opacity: 1;
+    color: #85e083;
+    height: 6px;
+    width: 50px;
+    margin: auto;
+    background-color: #85e083;
+}
+
+.contact-us .row:first-child p{    
+    text-align: center;
+    color: #85e083;
+    font-weight: 300;
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+
+.contact-us .row:nth-child(2) p{    
+    text-align: center;    
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+
+.contact-us .row:nth-child(2) p i{    
+    background: #d2dc69;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 21px;
+    font-size: 2em;
+    color: #ad2f5f;
+    margin-bottom: 0.2em;
+}
+
+.contact-us .row:nth-child(2) p a{    
+    color: #d2dc69;
+}
+
+.contact{    
+    background-color: #85e083;
+}
+
+.contact p{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.contact .row .col-12:first-child{
+    padding-left: 0;
+}
+
+.contact form input, .contact form textarea{    
+    background-color: transparent;
+    border: 2px solid black;
+    box-shadow: inset 0 0px 0px rgb(0 0 0 / 8%);
+    border-radius: 0px;
+    margin-bottom: 1.5em;
+    color: black;
+}
+
+.btn-form{    
+    background-color: #ad2f5f;
+    border-radius: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.btn-form:hover, .btn-form:focus{    
+    color: #ad2f5f;
+    background-color: white;
+}
+
+.footer-menu{
+    background-color: #d2dc69;
+    font-size: 1em;
+    font-weight: 700;
+    padding-top: 0.5em;
+}
+
+.footer-menu a{
+    color: #ad2f5f;
+}
+
+.footer-menu ul{
+    margin-bottom: 0.5em;
+}
+
+footer{
+    background-color: #ad2f5f;
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+}
+
+footer p{
+    font-size: 1.3em;
+}
+
+@media (max-width: 767px){
+
+    #navbarText ul{
+        text-align: center;
+    }
+
+    .doctors h2{
+        margin-top: 1em;
+    }
+
+    .doctors h4{
+        margin-bottom: 1em;
+    }
+}
