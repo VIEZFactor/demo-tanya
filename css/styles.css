@@ -194,6 +194,28 @@ p{
     margin-bottom: 2em;
 }
 
+.gallery{
+    background-color: #d2dc69;
+    padding-top: 3em;
+    padding-bottom: 2.5em;
+}
+
+.gallery h3{
+    text-align: center;
+    color: #ad2f5f;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.gallery hr{    
+    opacity: 1;
+    color: #ad2f5f;
+    height: 6px;
+    width: 50px;
+    margin: auto;
+    background-color: #ad2f5f;
+}
+
 .contact-us{
     background-color: #5a5b5b;
     padding-top: 2em;
